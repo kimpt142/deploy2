@@ -90,7 +90,7 @@
         <configuration> 
           <schemaVersion>V2</schemaVersion>  
           <resourceGroup>cloud-shell-storage-southeastasia</resourceGroup>  
-          <appName>hvtplan3</appName>  
+          <appName>hvtcho1</appName>
           <pricingTier>B1</pricingTier>  
           <region>australiacentral</region>  
           <runtime> 
