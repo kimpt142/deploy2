@@ -20,10 +20,13 @@ jobs:
       with:
         java-version: '8'
 
+    - name: Build with Maven
+      run: mvn clean install
+
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'hvtcho1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4086c873feb24892bc92871270e3ab0b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d8fa39b4b6ed47d98b20c767eb7cd07a }}
         package: '${{ github.workspace }}/target/*.war'
