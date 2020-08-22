@@ -25,5 +25,5 @@ jobs:
       with:
         app-name: 'hvtcho1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d8fa39b4b6ed47d98b20c767eb7cd07a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4086c873feb24892bc92871270e3ab0b }}
         package: '${{ github.workspace }}/target/*.war'
